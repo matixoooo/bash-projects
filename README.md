@@ -6,3 +6,7 @@
 6. Probujemy sie laczyc za pomoca adresu prywatnego na port 22.
 
 PS. Jesli kontener sie usunie lub zginie skrypt tworzy rowniez docker-compose dzieki ktoremu pozniej mozna uruchomic serwis za pomoca docker-compose up -d
+
+Thanks to:
+
+https://medium.com/@gurayy/set-up-a-vpn-server-with-docker-in-5-minutes-a66184882c45
