@@ -48,7 +48,7 @@ services:
     restart: unless-stopped
     networks: 
       vpn:
-        ipv4_address: "172.1.69.69"
+        ipv4_address: "172.x.x.x"
 
 
 networks:
@@ -56,8 +56,8 @@ networks:
     driver: bridge
     ipam:
      config:
-       - subnet: 172.1.0.0/16
- #        gateway: 172.1.69.1
+       - subnet: 172.x.x.x/16
+ #        gateway: 172.x.x.x
 _EOF
 
 echo DONE!
